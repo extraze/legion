@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legion</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<header class="container">
+    <h1><a href="">СПЕЦЛЕГИОН</a></h1>
+    <nav>
+        <ul class="main-menu">
+            <li>
+                <a href="">Каталог</a>
+                <ul class="submenu">
+                    <li><a href="">Товары</a></li>
+                    <li><a href="">Акции</a></li>
+                    <li><a href="">Новинки</a></li>
+                </ul>
+            </li>
+            <li><a href="">Компания</a></li>
+            <li>
+                <a href="">Услуги</a>
+                <ul class="submenu">
+                    <li><a href="">Консультация</a></li>
+                    <li><a href="">Поддержка</a></li>
+                </ul>
+            </li>
+            <li><a href="">Как купить</a></li>
+            <li><a href="">Контакты</a></li>
+        </ul>
+    </nav>    
+    <div class="counter-icons">
+        <div class="favorite-icon">
+            <img src="/img/svg/heart.svg" alt="избранное">
+            <span class="counter" id="favorites-counter">0</span>
+        </div>
+        <div class="marks-icon">
+            <img src="/img/svg/marks.svg" alt="закладки">
+            <span class="counter" id="marks-counter">0</span>
+        </div>
+        <div class="basket-icon">
+            <img src="/img/svg/basket.svg" alt="корзина">
+            <span class="counter" id="basket-counter">0</span>
+        </div>
+    </div>
+    <div class="nav-icons">
+        <div class="search-container">
+            <div class="search-icon"><img src="/img/svg/search.svg" alt=""></div>
+            <div class="search-popup">
+                <input type="text" placeholder="Введите запрос...">
+            </div>
+        </div>
+        <a href=""><img src="/img/svg/call-phone.svg" alt=""></a>
+        <a href=""><img src="/img/svg/icon.svg" alt=""></a>
+    </div>
+</header>
+
+<main class="container">
+    <div class="hero">
+
+        <div class="product-info">
+            <div class="tags">
+                <p>В наличии много</p>
+                <p>Хит</p>
+                <p>Рекомендуем</p>
+            </div>
+            <div class="rating-container">
+                <div class="stars">
+                    <img src="/img/svg/star-empty.svg" data-value="1" alt="1 звезда">
+                    <img src="/img/svg/star-empty.svg" data-value="2" alt="2 звезды">
+                    <img src="/img/svg/star-empty.svg" data-value="3" alt="3 звезды">
+                    <img src="/img/svg/star-empty.svg" data-value="4" alt="4 звезды">
+                    <img src="/img/svg/star-empty.svg" data-value="5" alt="5 звезд">
+                </div>
+                <a href="/reviews" id="rating-value"></a>
+            </div>
+            <h1>Сапоги защитные утепленные</h1>
+            <p>на ПУ/ПУ подошве <br> с металлическим подноском</p>
+            <div class="product-link">
+                <p>от 5000₽</p>
+                <a href="">Перейти в каталог</a>
+                <button class="add-to-favorites"><img src="/img/svg/heart-white.svg" alt=""></button>
+                <button class="add-to-marks"><img src="/img/svg/marks-white.svg" alt=""></button>
+                <!-- ДОДЕЛАТЬ ЭТУ ХУЙНЮ НЕ ЗАБЫТЬ!!! -->
+            </div>
+        </div>
+
+        <img src="/img/png/hero-product.png" class="hero-img" alt="">
+
+        <div class="slider">
+            <div class="slider-wrapper">
+                <div class="slide">
+                    <a href="https://example.com/product1" target="_blank">
+                        <div class="content">
+                            <img src="/img/png/product1.png" alt="Product 1">
+                            <div class="description">
+                                <p>Костюм зимний Фаворит-1 (тк.Смесовая,210) брюки, т.серый/св.серый</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://example.com/product1" target="_blank">
+                        <div class="content">
+                            <img src="/img/png/product2.png" alt="Product 1">
+                            <div class="description">
+                                <p>Костюм зимний Фаворит-1 (тк.Смесовая,210) брюки, т.серый/св.серый</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://example.com/product1" target="_blank">
+                        <div class="content">
+                            <img src="/img/png/product3.png" alt="Product 1">
+                            <div class="description">
+                                <p>Костюм зимний Фаворит-1 (тк.Смесовая,210) брюки, т.серый/св.серый</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://example.com/product1" target="_blank">
+                        <div class="content">
+                            <img src="/img/png/product3.png" alt="Product 1">
+                            <div class="description">
+                                <p>Костюм зимний Фаворит-1 (тк.Смесовая,210) брюки, т.серый/св.серый</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://example.com/product1" target="_blank">
+                        <div class="content">
+                            <img src="/img/png/product3.png" alt="Product 1">
+                            <div class="description">
+                                <p>Костюм зимний Фаворит-1 (тк.Смесовая,210) брюки, т.серый/св.серый</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://example.com/product1" target="_blank">
+                        <div class="content">
+                            <img src="/img/png/product3.png" alt="Product 1">
+                            <div class="description">
+                                <p>Костюм зимний Фаворит-1 (тк.Смесовая,210) брюки, т.серый/св.серый</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://example.com/product1" target="_blank">
+                        <div class="content">
+                            <img src="/img/png/product1.png" alt="Product 1">
+                            <div class="description">
+                                <p>Костюм зимний Фаворит-1 (тк.Смесовая,210) брюки, т.серый/св.серый</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://example.com/product1" target="_blank">
+                        <div class="content">
+                            <img src="/img/png/product2.png" alt="Product 1">
+                            <div class="description">
+                                <p>Костюм зимний Фаворит-1 (тк.Смесовая,210) брюки, т.серый/св.серый</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://example.com/product1" target="_blank">
+                        <div class="content">
+                            <img src="/img/png/product3.png" alt="Product 1">
+                            <div class="description">
+                                <p>Костюм зимний Фаворит-1 (тк.Смесовая,210) брюки, т.серый/св.серый</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://example.com/product1" target="_blank">
+                        <div class="content">
+                            <img src="/img/png/product3.png" alt="Product 1">
+                            <div class="description">
+                                <p>Костюм зимний Фаворит-1 (тк.Смесовая,210) брюки, т.серый/св.серый</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://example.com/product1" target="_blank">
+                        <div class="content">
+                            <img src="/img/png/product3.png" alt="Product 1">
+                            <div class="description">
+                                <p>Костюм зимний Фаворит-1 (тк.Смесовая,210) брюки, т.серый/св.серый</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://example.com/product1" target="_blank">
+                        <div class="content">
+                            <img src="/img/png/product3.png" alt="Product 1">
+                            <div class="description">
+                                <p>Костюм зимний Фаворит-1 (тк.Смесовая,210) брюки, т.серый/св.серый</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="slider-dots"></div>
+        </div>
+    </div>
+
+    <div class="categories-grid">
+        <div class="category">
+            <img src="/img/png/category1.png" alt="">
+            <h4>Спецодежда</h4>
+            <div class="tags">
+                <p>
+                    <a href="">зимняя</a>
+                    <a href="">летняя</a>
+                    <a href="">защитная</a>
+                    <a href="">для рыбалки</a>
+                    <a href="">для охранных структур</a>
+                    <a href="">охоты</a>
+                    <a href="">туризма</a> <br>
+                    <a href="">для медицины</a>
+                    <a href="">для сферы услуг</a> <br>
+                    <a href="">головные уборы</a>
+                </p>
+            </div>
+            <a href=""><img src="/img/svg/link-btn.svg" alt=""></a>
+        </div>
+        <div class="category">
+            <img src="/img/png/category2.png" alt="">
+            <h4>Спецодежда</h4>
+            <div class="tags">
+                <p>
+                    <a href="">зимняя</a>
+                    <a href="">летняя</a>
+                    <a href="">защитная</a>
+                    <a href="">для рыбалки</a>
+                    <a href="">для охранных структур</a>
+                    <a href="">охоты</a>
+                    <a href="">туризма</a> <br>
+                    <a href="">для медицины</a>
+                    <a href="">для сферы услуг</a> <br>
+                    <a href="">головные уборы</a>
+                </p>
+            </div>
+            <a href=""><img src="/img/svg/link-btn.svg" alt=""></a>
+        </div>
+        <div class="category">
+            <img src="/img/png/category3.png" alt="">
+            <h4>Спецодежда</h4>
+            <div class="tags">
+                <p>
+                    <a href="">зимняя</a>
+                    <a href="">летняя</a>
+                    <a href="">защитная</a>
+                    <a href="">для рыбалки</a>
+                    <a href="">для охранных структур</a>
+                    <a href="">охоты</a>
+                    <a href="">туризма</a> <br>
+                    <a href="">для медицины</a>
+                    <a href="">для сферы услуг</a> <br>
+                    <a href="">головные уборы</a>
+                </p>
+            </div>
+            <a href=""><img src="/img/svg/link-btn.svg" alt=""></a>
+        </div>
+        <div class="category">
+            <img src="/img/png/category4.png" alt="">
+            <h4>Спецодежда</h4>
+            <div class="tags">
+                <p>
+                    <a href="">зимняя</a>
+                    <a href="">летняя</a>
+                    <a href="">защитная</a>
+                    <a href="">для рыбалки</a>
+                    <a href="">для охранных структур</a>
+                    <a href="">охоты</a>
+                    <a href="">туризма</a> <br>
+                    <a href="">для медицины</a>
+                    <a href="">для сферы услуг</a> <br>
+                    <a href="">головные уборы</a>
+                </p>
+            </div>
+            <a href=""><img src="/img/svg/link-btn.svg" alt=""></a>
+        </div>
+        <div class="category">
+            <img src="/img/png/category5.png" alt="">
+            <h4>Спецодежда</h4>
+            <div class="tags">
+                <p>
+                    <a href="">зимняя</a>
+                    <a href="">летняя</a>
+                    <a href="">защитная</a>
+                    <a href="">для рыбалки</a>
+                    <a href="">для охранных структур</a>
+                    <a href="">охоты</a>
+                    <a href="">туризма</a> <br>
+                    <a href="">для медицины</a>
+                    <a href="">для сферы услуг</a> <br>
+                    <a href="">головные уборы</a>
+                </p>
+            </div>
+            <a href=""><img src="/img/svg/link-btn.svg" alt=""></a>
+        </div>
+        <div class="category">
+            <img src="/img/png/category6.png" alt="">
+            <h4>Спецодежда</h4>
+            <div class="tags">
+                <p>
+                    <a href="">зимняя</a>
+                    <a href="">летняя</a>
+                    <a href="">защитная</a>
+                    <a href="">для рыбалки</a>
+                    <a href="">для охранных структур</a>
+                    <a href="">охоты</a>
+                    <a href="">туризма</a> <br>
+                    <a href="">для медицины</a>
+                    <a href="">для сферы услуг</a> <br>
+                    <a href="">головные уборы</a>
+                </p>
+            </div>
+            <a href=""><img src="/img/svg/link-btn.svg" alt=""></a>
+        </div>
+        <div class="category">
+            <img src="/img/png/category7.png" alt="">
+            <h4>Спецодежда</h4>
+            <div class="tags">
+                <p>
+                    <a href="">зимняя</a>
+                    <a href="">летняя</a>
+                    <a href="">защитная</a>
+                    <a href="">для рыбалки</a>
+                    <a href="">для охранных структур</a>
+                    <a href="">охоты</a>
+                    <a href="">туризма</a> <br>
+                    <a href="">для медицины</a>
+                    <a href="">для сферы услуг</a> <br>
+                    <a href="">головные уборы</a>
+                </p>
+            </div>
+            <a href=""><img src="/img/svg/link-btn.svg" alt=""></a>
+        </div>
+        <div class="category">
+            <img src="/img/png/category8.png" alt="">
+            <h4>Спецодежда</h4>
+            <div class="tags">
+                <p>
+                    <a href="">зимняя</a>
+                    <a href="">летняя</a>
+                    <a href="">защитная</a>
+                    <a href="">для рыбалки</a>
+                    <a href="">для охранных структур</a>
+                    <a href="">охоты</a>
+                    <a href="">туризма</a> <br>
+                    <a href="">для медицины</a>
+                    <a href="">для сферы услуг</a> <br>
+                    <a href="">головные уборы</a>
+                </p>
+            </div>
+            <a href=""><img src="/img/svg/link-btn.svg" alt=""></a>
+        </div>
+        <div class="category">
+            <img src="/img/png/category9.png" alt="">
+            <h4>Спецодежда</h4>
+            <div class="tags">
+                <p>
+                    <a href="">зимняя</a>
+                    <a href="">летняя</a>
+                    <a href="">защитная</a>
+                    <a href="">для рыбалки</a>
+                    <a href="">для охранных структур</a>
+                    <a href="">охоты</a>
+                    <a href="">туризма</a> <br>
+                    <a href="">для медицины</a>
+                    <a href="">для сферы услуг</a> <br>
+                    <a href="">головные уборы</a>
+                </p>
+            </div>
+            <a href=""><img src="/img/svg/link-btn.svg" alt=""></a>
+        </div>
+        <div class="category">
+            <img src="/img/png/category10.png" alt="">
+            <h4>Спецодежда</h4>
+            <div class="tags">
+                <p>
+                    <a href="">зимняя</a>
+                    <a href="">летняя</a>
+                    <a href="">защитная</a>
+                    <a href="">для рыбалки</a>
+                    <a href="">для охранных структур</a>
+                    <a href="">охоты</a>
+                    <a href="">туризма</a> <br>
+                    <a href="">для медицины</a>
+                    <a href="">для сферы услуг</a> <br>
+                    <a href="">головные уборы</a>
+                </p>
+            </div>
+            <a href=""><img src="/img/svg/link-btn.svg" alt=""></a>
+        </div>
+        <div class="category">
+            <img src="/img/png/category11.png" alt="">
+            <h4>Спецодежда</h4>
+            <div class="tags">
+                <p>
+                    <a href="">зимняя</a>
+                    <a href="">летняя</a>
+                    <a href="">защитная</a>
+                    <a href="">для рыбалки</a>
+                    <a href="">для охранных структур</a>
+                    <a href="">охоты</a>
+                    <a href="">туризма</a> <br>
+                    <a href="">для медицины</a>
+                    <a href="">для сферы услуг</a> <br>
+                    <a href="">головные уборы</a>
+                </p>
+            </div>
+            <a href=""><img src="/img/svg/link-btn.svg" alt=""></a>
+        </div>
+        <div class="category">
+            <img src="/img/png/category12.png" alt="">
+            <h4>Спецодежда</h4>
+            <div class="tags">
+                <p>
+                    <a href="">зимняя</a>
+                    <a href="">летняя</a>
+                    <a href="">защитная</a>
+                    <a href="">для рыбалки</a>
+                    <a href="">для охранных структур</a>
+                    <a href="">охоты</a>
+                    <a href="">туризма</a> <br>
+                    <a href="">для медицины</a>
+                    <a href="">для сферы услуг</a> <br>
+                    <a href="">головные уборы</a>
+                </p>
+            </div>
+            <a href=""><img src="/img/svg/link-btn.svg" alt=""></a>
+        </div>
+    </div>
+
+    <div class="best-offers">
+        <h2>ЛУЧШИЕ ПРЕДЛОЖЕНИЯ</h2>
+        <div class="products">
+            <div class="product">
+                <div class="product-slider">
+                    <div class="product-slider-wrapper">
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 1"></div>
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 2"></div>
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 3"></div>
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 4"></div>
+                    </div>
+                    <div class="product-slider-dots"></div>
+                </div>
+
+                <div class="tags">
+                    <p>Хит</p>
+                    <p>Рекомендуем</p>
+                </div>
+
+                <div class="product-info">
+                    <span>Арт. 1234567</span>
+                    <span>В наличии много</span>
+                </div>
+
+                <div class="rating-container">
+                    <div class="stars">
+                        <img src="/img/svg/star-empty.svg" data-value="1" alt="1 звезда">
+                        <img src="/img/svg/star-empty.svg" data-value="2" alt="2 звезды">
+                        <img src="/img/svg/star-empty.svg" data-value="3" alt="3 звезды">
+                        <img src="/img/svg/star-empty.svg" data-value="4" alt="4 звезды">
+                        <img src="/img/svg/star-empty.svg" data-value="5" alt="5 звезд">
+                    </div>
+                    <a href="/reviews" id="rating-value"></a>
+                </div>
+        
+                <p>Костюм зимний Труженик-Ультра (тк.Смесовая,210) брюки, т.серый/красный</p>
+        
+                <div class="buy-product">
+                    <span class="price"></span>
+                    <button class="add-to-basket"><img src="" alt=""></button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-slider">
+                    <div class="product-slider-wrapper">
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 1"></div>
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 2"></div>
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 3"></div>
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 4"></div>
+                    </div>
+                    <div class="product-slider-dots"></div>
+                </div>
+
+                <div class="tags">
+                    <p>Хит</p>
+                    <p>Рекомендуем</p>
+                </div>
+
+                <div class="product-info">
+                    <span>Арт. 1234567</span>
+                    <span>В наличии много</span>
+                </div>
+
+                <div class="rating-container">
+                    <div class="stars">
+                        <img src="/img/svg/star-empty.svg" data-value="1" alt="1 звезда">
+                        <img src="/img/svg/star-empty.svg" data-value="2" alt="2 звезды">
+                        <img src="/img/svg/star-empty.svg" data-value="3" alt="3 звезды">
+                        <img src="/img/svg/star-empty.svg" data-value="4" alt="4 звезды">
+                        <img src="/img/svg/star-empty.svg" data-value="5" alt="5 звезд">
+                    </div>
+                    <a href="/reviews" id="rating-value"></a>
+                </div>
+        
+                <p></p>
+        
+                <div class="buy-product">
+                    <span class="price"></span>
+                    <button class="add-to-basket"><img src="" alt=""></button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-slider">
+                    <div class="product-slider-wrapper">
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 1"></div>
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 2"></div>
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 3"></div>
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 4"></div>
+                    </div>
+                    <div class="product-slider-dots"></div>
+                </div>
+
+                <div class="tags">
+                    <p>Хит</p>
+                    <p>Рекомендуем</p>
+                </div>
+
+                <div class="product-info">
+                    <span>Арт.</span>
+                    <span>В наличии много</span>
+                </div>
+
+                <div class="rating-container">
+                    <div class="stars">
+                        <img src="/img/svg/star-empty.svg" data-value="1" alt="1 звезда">
+                        <img src="/img/svg/star-empty.svg" data-value="2" alt="2 звезды">
+                        <img src="/img/svg/star-empty.svg" data-value="3" alt="3 звезды">
+                        <img src="/img/svg/star-empty.svg" data-value="4" alt="4 звезды">
+                        <img src="/img/svg/star-empty.svg" data-value="5" alt="5 звезд">
+                    </div>
+                    <a href="/reviews" id="rating-value"></a>
+                </div>
+        
+                <p></p>
+        
+                <div class="buy-product">
+                    <span class="price"></span>
+                    <button class="add-to-basket"><img src="" alt=""></button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-slider">
+                    <div class="product-slider-wrapper">
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 1"></div>
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 2"></div>
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 3"></div>
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 4"></div>
+                    </div>
+                    <div class="product-slider-dots"></div>
+                </div>
+
+                <div class="tags">
+                    <p>Хит</p>
+                    <p>Рекомендуем</p>
+                </div>
+
+                <div class="product-info">
+                    <span>Арт.</span>
+                    <span>В наличии много</span>
+                </div>
+
+                <div class="rating-container">
+                    <div class="stars">
+                        <img src="/img/svg/star-empty.svg" data-value="1" alt="1 звезда">
+                        <img src="/img/svg/star-empty.svg" data-value="2" alt="2 звезды">
+                        <img src="/img/svg/star-empty.svg" data-value="3" alt="3 звезды">
+                        <img src="/img/svg/star-empty.svg" data-value="4" alt="4 звезды">
+                        <img src="/img/svg/star-empty.svg" data-value="5" alt="5 звезд">
+                    </div>
+                    <a href="/reviews" id="rating-value"></a>
+                </div>
+        
+                <p></p>
+        
+                <div class="buy-product">
+                    <span class="price"></span>
+                    <button class="add-to-basket"><img src="" alt=""></button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-slider">
+                    <div class="product-slider-wrapper">
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 1"></div>
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 2"></div>
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 3"></div>
+                        <div class="product-slide"><img src="/img/png/image.png" alt="Image 4"></div>
+                    </div>
+                    <div class="product-slider-dots"></div>
+                </div>
+
+                <div class="tags">
+                    <p>Хит</p>
+                    <p>Рекомендуем</p>
+                </div>
+
+                <div class="product-info">
+                    <span>Арт.</span>
+                    <span>В наличии много</span>
+                </div>
+
+                <div class="rating-container">
+                    <div class="stars">
+                        <img src="/img/svg/star-empty.svg" data-value="1" alt="1 звезда">
+                        <img src="/img/svg/star-empty.svg" data-value="2" alt="2 звезды">
+                        <img src="/img/svg/star-empty.svg" data-value="3" alt="3 звезды">
+                        <img src="/img/svg/star-empty.svg" data-value="4" alt="4 звезды">
+                        <img src="/img/svg/star-empty.svg" data-value="5" alt="5 звезд">
+                    </div>
+                    <a href="/reviews" id="rating-value"></a>
+                </div>
+        
+                <p></p>
+        
+                <div class="buy-product">
+                    <span class="price"></span>
+                    <button class="add-to-basket"><img src="" alt=""></button>
+                </div>
+            </div>
+            <!-- Можно добавить несколько таких карточек -->
+        </div>
+
+        </div>
+    </div>
+</main>
+
+<script src="/js/script.js"></script>
+</body>
+</html>
